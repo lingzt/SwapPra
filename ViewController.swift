@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var c = "3"
-        var d = "4"
+        var c = "c"
+        var d = "d"
         
         
         print("Address of c is : \(unsafeAddressOf(c))")
@@ -26,8 +26,8 @@ class ViewController: UIViewController {
         print("Address of d is : \(unsafeAddressOf(d))\n_____________________")
         
         
-        var a = "1"
-        var b = "2"
+        var a = "a"
+        var b = "b"
         
         print("Before swap\nAddress of a is : \(unsafeAddressOf(a))")
         print("Address of b is : \(unsafeAddressOf(b))")
